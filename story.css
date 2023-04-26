@@ -1,0 +1,319 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/wish_tv30_stills_request_e668ebf6.jpeg?region=0%2C0%2C4096%2C1716');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 200px 0;
+    color: #fff;
+  }
+  
+  .header-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .header-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #f8ae0f;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .story {
+    margin-bottom: 40px;
+    font-weight: 500;
+
+  }
+  
+  .story img {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    scale: 130%;
+  }
+  
+  .comments {
+    margin-top: 40px;
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+  }
+  
+  .comment h4 {
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .comment-form {
+    margin-bottom: 20px;
+  }
+  
+  .comment-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .comment-form textarea {
+    resize: vertical;
+  }
+  
+  .comment-form input[type="submit"] {
+    background-color: #f8ae0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-form input[type="submit"]:hover {
+    background-color: #e44073;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f8ae0f;
+  }
+  
+  .logo:hover {
+    color: #f8ed33;
+  }
+  .comments {
+    margin-top: 40px;
+  }
+  
+  .comments h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .comments form {
+    margin-bottom: 30px;
+  }
+  
+  .comments input[type="text"],
+  .comments input[type="email"],
+  .comments textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .comments input[type="text"],
+  .comments input[type="email"] {
+    background-color: #f1f1f1;
+  }
+  
+  .comments textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .comments button[type="submit"] {
+    background-color: #f8ae0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comments button[type="submit"]:hover {
+    background-color: #e44073;
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+  }
+  
+  .comment h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .comment p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  
+  
+  .social-icons a {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    color: #f8ae0f;
+  }
+  
+  .fab {
+    font-size: 1.5rem;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .footer-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-links a:hover {
+    color: #f8ae0f;
+  }
+  
+  .destext {
+    font-size: smaller;
+  }
